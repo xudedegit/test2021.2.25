@@ -1,0 +1,5 @@
+﻿  test_constfunc.cpp
+D:\study_source\cpp_code\test2021.2.25\test_constfunc\test_constfunc.cpp(35,17): warning C4269: “p1”: 用编译器生成的默认构造函数初始化的“const”自动数据产生不可靠的结果
+D:\study_source\cpp_code\test2021.2.25\test_constfunc\test_constfunc.cpp(38,11): error C2662: “void person::func1(void)”: 不能将“this”指针从“const person”转换为“person &”
+D:\study_source\cpp_code\test2021.2.25\test_constfunc\test_constfunc.cpp(38,2): message : 转换丢失限定符
+D:\study_source\cpp_code\test2021.2.25\test_constfunc\test_constfunc.cpp(17,7): message : 参见“person::func1”的声明
